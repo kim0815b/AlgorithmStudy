@@ -21,6 +21,7 @@ public class Sol1546 {
 				maxNum = numbers[i];
 			}
 		}
+		
 		for(int num: numbers) {
 			sum = sum + ((float)num / maxNum * 100); 
 		}
